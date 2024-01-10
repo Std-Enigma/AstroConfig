@@ -2,11 +2,17 @@
 return {
   opt = {
     -- set to true or false etc.
+    tabstop = 4, -- sets vim.opt.tabstop
+    shiftwidth = 4, -- sets vim.opt.shiftwidth
+    softtabstop = 4, -- sets vim.opt.softtabstop
+    expandtab = true, -- sets vim.opt.expandtab
+    smarttab = true, -- sets vim.opt.smarttab
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
-    signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    signcolumn = "auto", -- sets vim.opt.signcolumn to auto
+    guifont = "JetBrainsMono Nerd Font Mono:h16", -- sets vim.opt.guifont
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
