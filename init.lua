@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "catppuccin-mocha",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -38,6 +38,10 @@ return {
           "java",
           "csharp",
           "lua",
+          "rust",
+          "typescript",
+          "javascript",
+          "json",
         },
         ignore_filetypes = { -- disable format on save for specified filetypes
           -- "python",
